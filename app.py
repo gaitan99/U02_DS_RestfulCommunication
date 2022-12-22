@@ -5,14 +5,14 @@ import random
 import data
 app = Flask(__name__)
 
-#Ranuras para los agentes con un status que nos indica si está ocupada o no
+#Capacidad para los agentes con un status que nos indica si está ocupada o no
 agents =[
     {"Server": 1,"status":"OFF"},
     {"Server": 2,"status":"OFF"},
     {"Server": 3,"status":"OFF"}
 ]
 
-#Datos que tiene un id que indica su respectivo servidor y el último valor 
+#Datos de cada servidor con un id que indica su respectivo id y el último valor 
 #que este ha enviado.
 data = [
     {"id": 1,"random":0},
