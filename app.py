@@ -2,7 +2,7 @@
 #Based on: https://realpython.com/api-integration-in-python/
 from flask import Flask, request, jsonify
 import random
-import data
+#import data
 app = Flask(__name__)
 
 #Capacidad para los agentes con un status que nos indica si está ocupada o no
